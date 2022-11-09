@@ -1,8 +1,9 @@
 (ns cljpg.core)
 
-(require '[cryptohash-clj.api :as ch])
-(require '[clojure.string :as str])
-(require '[clojure.java.io :as io])
+(require
+ '[cryptohash-clj.api :as ch]
+       '[clojure.string :as str]
+       '[clojure.java.io :as io])
 
 
 (def ll (io/resource "ll"))
